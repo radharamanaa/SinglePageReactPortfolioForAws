@@ -8,10 +8,10 @@ const NavBar = () => {
           className="text-2xl font-thin"
           style={{ fontFamily: "Playfair Display" }}
         >
-          Abhijeet Mishra
+          <a href="/">Abhijeet Mishra</a>
         </h1>
         <ul className="flex">
-          {["Skills", "Experience", "Projects", "Contact"].map((item) => (
+          {["Skills", "Experience", "Projects", "Contact Me"].map((item) => (
             <NavBarListItem key={item} text={item} />
           ))}
         </ul>

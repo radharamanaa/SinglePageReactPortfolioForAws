@@ -75,7 +75,7 @@ let typescriptSkill = {
   name: "TypeScript",
   level: "Advanced",
   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/devicon.git/icons/typescript/typescript-original.svg",
-  rating: 5,
+  rating: 4,
   description: `Expert in TypeScript. I have Over 3+ years of experience in TypeScript. Completed 2 professional projects in Valuelabs on React, Redux and React Router.
   This site you are viewing right now, also uses typescript!`,
 };
