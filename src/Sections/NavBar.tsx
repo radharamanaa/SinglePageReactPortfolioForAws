@@ -11,7 +11,7 @@ const NavBar = () => {
           <a href="/">Abhijeet Mishra</a>
         </h1>
         <ul className="flex">
-          {["Skills", "Experience", "Projects", "Contact Me"].map((item) => (
+          {["Skills", "Experience", "Projects", "ContactMe"].map((item) => (
             <NavBarListItem key={item} text={item} />
           ))}
         </ul>

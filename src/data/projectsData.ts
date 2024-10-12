@@ -9,7 +9,7 @@ export interface ProjectDetails {
 
 let aideLndProject: ProjectDetails = {
   name: "Aide Academy/Aide Lnd",
-  description: `This project aims to make remove hassles of Content creation, creating assessments on Content, and grading the content on Admin's behalf. 
+  description: `This project aims to make remove hassles of Content creation, creating assessments on Content, and grading the assessments on Admin's behalf. 
     We generate the transcript of the video and feed the data to the VectorDB and learning assistant bot assists users in their Queries.
     It is also a CMS which tracks the enrolled users progress in the course, serves analystics to the admin among various other options like course approval workflow.`,
   technologies: [

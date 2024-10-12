@@ -2,7 +2,7 @@ const ContactMe = () => {
   return (
     <div
       className="flex flex-col mx-auto md:max-w-5xl w-full justify-start items-center h-screen "
-      id="Contact Me"
+      id="ContactMe"
     >
       <div className="text-4xl lg:text-6xl font-playfair flex justify-center md:justify-start md:mt-32 font-thin text-slate-700">
         Click to contact me on LinkedIn
