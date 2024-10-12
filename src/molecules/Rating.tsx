@@ -12,7 +12,7 @@ function* generateRating(rating: number) {
 const Rating: React.FC<RatingProps> = ({ rating }) => {
   return (
     <div className="flex items-center gap-1">
-      {Array.from(generateRating(rating)).map((item) => (
+      {Array.from(generateRating(rating)).map(() => (
         <svg
           className="w-4 h-4 text-yellow-300 ms-1"
           aria-hidden="true"
@@ -24,7 +24,7 @@ const Rating: React.FC<RatingProps> = ({ rating }) => {
         </svg>
       ))}
 
-      {Array.from(generateRating(5 - rating)).map((item) => (
+      {Array.from(generateRating(5 - rating)).map(() => (
         <svg
           className="w-4 h-4 ms-1 text-gray-300 dark:text-gray-500"
           aria-hidden="true"

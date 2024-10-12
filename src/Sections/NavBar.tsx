@@ -1,4 +1,3 @@
-import React from "react";
 import NavBarListItem from "../molecules/NavBarListItem";
 
 const NavBar = () => {

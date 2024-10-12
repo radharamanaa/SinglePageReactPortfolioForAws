@@ -1,4 +1,3 @@
-import React from "react";
 import "@fontsource/roboto";
 import "@fontsource/playfair-display"; // Defaults to weight 400
 // or specify a weight and style

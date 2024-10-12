@@ -9,17 +9,11 @@ interface SkillProps {
   description: string;
 }
 
-const Skill: React.FC<SkillProps> = ({
-  description,
-  icon,
-  level,
-  name,
-  rating,
-}) => {
+const Skill: React.FC<SkillProps> = ({ description, level, name, rating }) => {
   return (
     <div
       className="flex mt-8 flex-col w-72 items-center justify-center z-20
-    bg-indigo-600 rounded-md shadow-md  relative transition-transform hover:scale-105 hover:ease-in cursor-pointer"
+    bg-slate-600 rounded-md shadow-md  relative transition-transform hover:scale-105 hover:ease-in cursor-pointer"
     >
       <div
         className="text-xs font-thin self-start mt-1 absolute -left-2 top-0 z-10
@@ -36,7 +30,7 @@ const Skill: React.FC<SkillProps> = ({
         </div>
       </div>
       <div
-        className="text-sm text-slate-100 tracking-wider text-left w-11/12 mt-8 min-h-48"
+        className="text-sm text-slate-200 tracking-wider text-left w-11/12 mt-8 min-h-48"
         style={{ fontFamily: "Lato" }}
       >
         {description}

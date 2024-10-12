@@ -34,7 +34,7 @@ let aideLndProject: ProjectDetails = {
   type: "Professional",
 };
 
-let aideSalesProject = {
+let aideSalesProject: ProjectDetails = {
   name: "Aide Sales",
   description: `This project Empoweres the sales teams by providing them information of Success stories of the company on their finger tips. The success stories are stored in postgres as well a Vector database, which is refactored by the LLM to fit the client prompt. It guarentees day one productivity of the Sales rep with this feature.
   
@@ -59,6 +59,7 @@ let aideSalesProject = {
   ],
   url: "https://theaideplatform.com/products/operations/aide-academy.html",
   img: "https://abhijeet-portfolio-personal-build-bucket.s3.ap-south-1.amazonaws.com/public/thisisengineering-hoivM01c-vg-unsplash.jpg",
+  type: "Professional",
 };
 
 let zemosoFrontEndProject: ProjectDetails = {
@@ -80,7 +81,7 @@ let zemosoFrontEndProject: ProjectDetails = {
   type: "Professional",
 };
 
-let zemosoTestProject = {
+let zemosoTestProject: ProjectDetails = {
   name: "GE Test Files Generator",
   description: `Developed a User-Friendly Front-end which would produce Zemoso Test Files. The front-end is built using ReactJS, Redux, Typescript, HTML & CSS.
     This would help Test Engineers generate files for their API testing, E2E testing and would mainly remove manual errors possible in writing those files in for the tool Zemoso to consume`,
@@ -99,7 +100,7 @@ let zemosoTestProject = {
   type: "Professional",
 };
 
-let zemosoTestBDDProject = {
+let zemosoTestBDDProject: ProjectDetails = {
   name: "GE Cordant App BDD Test Project",
   description: `Developed around 40% of test cases of the Project using BDD testing with Cucumber Framework. Laid ground for best practices in BDD test case development. 
   Mentored juniors on many concepts in UI Testing and Api Testing.
@@ -138,7 +139,7 @@ let roltaBMSProject: ProjectDetails = {
   type: "Professional",
 };
 
-let visitorManagementSystemElitser = {
+let visitorManagementSystemElitser: ProjectDetails = {
   name: "Visitor Management System",
   description: `This is a Visitor Management System that tracks the visitors visiting the organization and issues passes and tracks their luggage and visit timings. 
   It also allows the admin to have a Dashboard which serves the statistics of the viewers, passes and their timings. 
